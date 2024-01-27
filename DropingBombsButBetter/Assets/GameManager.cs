@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(gameObject);
-    }
     private Spawner spawner;
     public GameObject title;
     private Vector2 screenBounds;
